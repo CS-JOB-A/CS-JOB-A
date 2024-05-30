@@ -1,9 +1,9 @@
 # CS를 잡아!
 
 ## 진행방식
-진도는 자유롭게! 강의를 기반으로 하루 공부한 것을 업데이트 합니다 :)
-- 큰 챕터는 함께, 강의도 함께 고르기
-- 도서나 인터넷 참고하여 추가 정리 당연히 좋습니다.
+- 주마다 일정을 계획하고 진행
+- 2024.05.30 ~ 월화수 : 컴퓨터구조 / 목금토 : 자바 
+- 다음날 8시 59분까지 제출 불이행시 벌금 (따따블 제도)
 
 ##  Members
 |[![PARK9YUR1](https://avatars.githubusercontent.com/u/104202618?v=4)](https://github.com/notegyul)|[![YUNA-AHN](https://avatars.githubusercontent.com/u/130244216?v=4)](https://github.com/YUNA-AHN)|[![chosuhyeon0812](https://avatars.githubusercontent.com/u/119795734?v=4)](https://github.com/chosuhyeon0812)|
@@ -11,9 +11,54 @@
 |[문수민](https://github.com/notegyul)|[안유나](https://github.com/YUNA-AHN)|[조수현](https://github.com/chosuhyeon0812)|
 
 
-### 이산 수학 
-권장 학습기간: `2주`, 학습분량: 주당 `7.5시간`   
+### 컴퓨터-구조
+참고 자료 : [개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://www.inflearn.com/course/%ED%98%BC%EC%9E%90-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/dashboard)
 
+|파트|진행상태|강의내용|개별 진행 체크|
+| ------ | ------ | ------ | ------ |
+|1| :white_large_square: | 1. 컴퓨터 구조 시작하기| |
+|2| :white_large_square: | 2. 데이터 | |
+|3| :white_large_square: | 3. 명령어 | |
+|4| :white_large_square: | 4. CPU의 작동 원리| |
+|5| :white_large_square: | 5. CPU의 성능 향상 기법 | |
+|6| :white_large_square: | 6. 메모리와 캐시 메모리 | |
+|7| :white_large_square: | 7. 보조기억장치| |
+|8| :white_large_square: | 8. 입출력장치 | |
+|9| :white_large_square: | 9. 운영체제 시작하기 | |
+|10| :white_large_square: | 10. 프로세스와 스레드| |
+|11| :white_large_square: | 11. CPU 스케줄링 | |
+|12| :white_large_square: | 12. 프로세스 동기화 | |
+|13| :white_large_square: | 13. 교착 상태 | |
+|14| :white_large_square: | 14. 가상 메모리 | |
+|15| :white_large_square: | 15. 파일 시스템| |
+
+---
+
+### JAVA
+참고 자료 : 개인별 / [이것이 자바다](https://www.youtube.com/playlist?list=PLVsNizTWUw7EmX1Y-7tB2EmsK6nu6Q10q)
+
+|파트|진행상태|강의내용|개별 진행 체크|
+| ------ | ------ | ------ | ------ |
+|1| :white_large_square: | 1일차| |
+|2| :white_large_square: | 2일차 | |
+|3| :white_large_square: | 3일차 | |
+|4| :white_large_square: | 4일차| |
+|5| :white_large_square: | 5일차 | |
+|6| :white_large_square: | 6일차 | |
+|7| :white_large_square: | 7일차| |
+|8| :white_large_square: | 8일차 | |
+|9| :white_large_square: | 9일차 | |
+|10| :white_large_square: | 10일차| |
+|11| :white_large_square: | 11일차| |
+|12| :white_large_square: | 12일차 | |
+|13| :white_large_square: | 13일차 | |
+|14| :white_large_square: | 14일차 | |
+|15| :white_large_square: | 15일차| |
+
+---
+
+
+### 이산 수학 
 |파트|진행상태|학습시간|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ | ------ |
 | | | | [강의 개요](이산-수학) | |
@@ -23,34 +68,10 @@
 |2| :black_large_square: |2| [형식언어와 오토마타,셈](이산-수학/형식언어와-오토마타,셈.md) | |
 |2| :white_large_square: |3| [관계,부분순서](이산-수학/관계,부분순서.md) | |
 
----
-
-### 컴퓨터-구조
- 권장 학습기간: `8주`, 학습분량: 주당 `5시간`
-
-|파트|진행상태|학습시간|강의내용|개별 진행 체크|
-| ------ | ------ | ------ | ------ | ------ |
-| | | | [강의 개요](컴퓨터-구조) ||
-|1| :white_large_square: |2| [컴퓨터-구조 개요](컴퓨터-구조/컴퓨터-구조-개요.md) | |
-|1| :white_large_square: |3| [1장 디지털 논리 회로 및 강의소개](컴퓨터-구조/1장-디지털-논리-회로-및-강의소개.md) | |
-|1| :white_large_square: |3| [2장 디지털 부품](컴퓨터-구조/2장-디지털-부품.md) | |
-|1| :white_large_square: |3| [3장 데이터의 표현](컴퓨터-구조/3장-데이터의-표현.md) | |
-|1| :white_large_square: |2| [4장 레지스터 전송과 마이크로 연산](컴퓨터-구조/4장-레지스터-전송과-마이크로-연산.md) | |
-|1| :white_large_square: |3| [5장 기본 컴퓨터의 구조와 설계-Part1](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part1.md) | |
-|1| :white_large_square: |3| [5장 기본 컴퓨터의 구조와 설계-Part2](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part2.md) | |
-|2| :white_large_square: |3| [6장 기본 컴퓨터 프로그래밍](컴퓨터-구조/6장-기본-컴퓨터-프로그래밍.md) | |
-|2| :white_large_square: |3| [7장 마이크로 프로그램](컴퓨터-구조/7장-마이크로-프로그램.md) | |
-|2| :white_large_square: |3| [8장 중앙 처리 장치](컴퓨터-구조/8장-중앙-처리-장치.md) | |
-|2| :white_large_square: |3| [9장 파이프라인과 벡터 처리](컴퓨터-구조/9장-파이프라인과-벡터-처리.md) | |
-|2| :white_large_square: |3| [10장 컴퓨터 산술 연산](컴퓨터-구조/10장-컴퓨터-산술-연산.md) | |
-|2| :white_large_square: |3| [11장 입출력 구조](컴퓨터-구조/11장-입출력-구조.md) | |
-|2| :white_large_square: |3| [12장 메모리 구조](컴퓨터-구조/12장-메모리-구조.md) | |
 
 ---
 
 ### 운영체제
-권장 학습기간: `8주`, 학습분량: 주당 `5시간`
-
 |파트|진행상태|학습시간|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ | ------ |
 | | | | [강의 개요](운영체제) ||
