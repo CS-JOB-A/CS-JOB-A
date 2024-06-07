@@ -42,7 +42,7 @@
 |1| :white_check_mark: | 1일차| :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |2| :white_check_mark: | 2일차 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |3| :white_check_mark: | 3일차 | :white_check_mark: 수민 :white_check_mark: 유나  :white_check_mark: 수현 |
-|4| :white_large_square: | 4일차| |
+|4| :white_large_square: | 4일차| :white_check_mark: 수민 |
 |5| :white_large_square: | 5일차 | |
 |6| :white_large_square: | 6일차 | |
 |7| :white_large_square: | 7일차| |
