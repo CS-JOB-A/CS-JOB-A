@@ -14,13 +14,13 @@
 ### 컴퓨터-구조
 참고 자료 : [개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://www.inflearn.com/course/%ED%98%BC%EC%9E%90-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/dashboard)
 
-|파트|진행상태|강의내용|개별 진행 체크|
+|파트|진행상태|강의내용|개별 진행 체크| 
 | ------ | ------ | ------ | ------ |
 |1| :white_check_mark: | 1. 컴퓨터 구조 시작하기|:white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현|
 |2| :white_check_mark: | 2. 데이터 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |3| :white_check_mark: | 3. 명령어 | :white_check_mark: 수현 :white_check_mark: 수민 :white_check_mark: 유나 |
 |4| :white_large_square: | 4. CPU의 작동 원리| :white_check_mark: 수민 :white_check_mark: 수현 |
-|5| :white_large_square: | 5. CPU의 성능 향상 기법 | :white_check_mark: 수민 |
+|5| :white_large_square: | 5. CPU의 성능 향상 기법 | :white_check_mark: 수민 :white_check_mark: 수현 |
 |6| :white_large_square: | 6. 메모리와 캐시 메모리 | |
 |7| :white_large_square: | 7. 보조기억장치| |
 |8| :white_large_square: | 8. 입출력장치 | |
