@@ -43,7 +43,7 @@
 
 
 
-# DRAM vs SRAN
+# DRAM vs SRAM
 | 분류 | DRAM | SRAM |
 | ---- | ---- | ---- |
 | 재충전 | 필요함 | 필요 없음 |
