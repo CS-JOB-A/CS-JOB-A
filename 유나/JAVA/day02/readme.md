@@ -6,6 +6,7 @@ main 메소드 선언시 String[] 매개변수의 용도
 ### 인텔리제이 Java 프로그램 args 설정하여 실행
 1. Edit Configurations 클릭
 2. 실행할 파일과 파라미터 입력
+
 ![img.png](img.png)
 
 ```java

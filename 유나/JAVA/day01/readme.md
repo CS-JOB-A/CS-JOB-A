@@ -31,6 +31,7 @@ String inputData = scanner.nextLine();
 변수들은 모두 stack이라는 메모리 영역에 생성  
 - 기본 타입 변수 : 직접 값을 저장
 - 참조 타입 변수 : 힙 메모리 영역의 String 객체 번지를 저장, 번지를 통해 String 객체 참조
+
 ![img.png](images/img.png)
 
 
@@ -38,6 +39,7 @@ String inputData = scanner.nextLine();
 1. 메소드 영역 : 자바 코드가 저장되는 부분, 바이트 코드 파일을 읽은 내용이 저장되는 영역
 2. 힙 영역 : 객체 저장
 3. 스택 영역 : 변수 생성
+
 ![img_1.png](images/img_1.png)
 
 # 5.3 참조 타입 변수의 ==, != 연산

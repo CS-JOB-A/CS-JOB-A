@@ -52,8 +52,9 @@ return 문 : 메소드의 실행을 강제 종류하고 호출한 곳으로 돌�
 
 ## 메소드 오버로딩
 - 메소드의 이름은 같음! 매개변수의 타입, 개수, 순서다 다른 메소드를 선언하는 것  
-- 다양한 매개값을 처리하기 위함
-![img.png](img.png)
+- 다양한 매개값을 처리하기 위함  
+
+![img.png](imgs/img.png)
 
 ```java
 public class Calculator {
@@ -81,7 +82,7 @@ public class Calculator {
 - 객체를 생성할 필요 없이 클래스를 통해 바로 사용이 가능
 - 자바 : 클래스 로더 이용해서 클래스를 메소드 영역에 저장하고 사용
 
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 ## 정적 멤버 선언
 - 필드와 메소드 모두 정적 멤버 가능
