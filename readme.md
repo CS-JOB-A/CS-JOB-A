@@ -23,7 +23,7 @@
 |5| :white_check_mark: | 5. CPU의 성능 향상 기법 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |6| :white_check_mark: | 6. 메모리와 캐시 메모리 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |7| :white_check_mark: | 7. 보조기억장치| :white_check_mark: 수민 :white_check_mark: 유나  :white_check_mark: 수현|
-|8| :white_large_square: | 8. 입출력장치 |:white_check_mark: 유나 |
+|8| :white_large_square: | 8. 입출력장치 |:white_check_mark: 유나 :white_check_mark: 수민 |
 |9| :white_large_square: | 9. 운영체제 시작하기 | |
 |10| :white_large_square: | 10. 프로세스와 스레드| |
 |11| :white_large_square: | 11. CPU 스케줄링 | |
