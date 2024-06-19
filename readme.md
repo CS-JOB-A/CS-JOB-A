@@ -24,7 +24,7 @@
 |6| :white_check_mark: | 6. 메모리와 캐시 메모리 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |7| :white_check_mark: | 7. 보조기억장치| :white_check_mark: 수민 :white_check_mark: 유나  :white_check_mark: 수현 |
 |8| :white_check_mark: | 8. 입출력장치 |:white_check_mark: 유나 :white_check_mark: 수민 :white_check_mark: 수현 |
-|9| :white_large_square: | 9. 운영체제 시작하기 | :white_check_mark: 수민 :white_check_mark: 유나 |
+|9| :white_check_mark: | 9. 운영체제 시작하기 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |10| :white_large_square: | 10. 프로세스와 스레드| |
 |11| :white_large_square: | 11. CPU 스케줄링 | |
 |12| :white_large_square: | 12. 프로세스 동기화 | |
