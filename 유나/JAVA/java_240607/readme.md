@@ -38,7 +38,7 @@ public class Car {
 - 객체마다 다른 값 -> 생성자에서 필드를 초기화
 
 ```java
-package day04;
+package java_240607;
 
 public class Korean {
     // 필드 선언
@@ -59,8 +59,9 @@ public class Korean {
 
 - 매개변수의 수만 다르고 필드 초기화 내용이 비슷한 생성자의 경우 아래와 같이 중복을 줄일 수 있음
 - 초기화 내용이 다르다면 각각 생성해 주어야함 !!
+
 ```java
-package day04;
+package java_240607;
 
 public class Camera {
     // 필드 선언
@@ -68,17 +69,20 @@ public class Camera {
     String model;
     String color;
     int maxPicture;
-    
+
     // 생성자 선언
     Camera() {
         this("필름카메라", "바이올렛", 29);
     }
+
     Camera(String model) {
         this(model, "바이올렛", 29);
     }
+
     Camera(String model, String color) {
         this(model, color, 29);
     }
+
     Camera(String model, String color, int maxPicture) {
         this.model = model;
         this.color = color;

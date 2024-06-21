@@ -10,7 +10,7 @@ main 메소드 선언시 String[] 매개변수의 용도
 ![img.png](img.png)
 
 ```java
-package day02;
+package java_240602;
 
 public class day02_args {
     public static void main(String[] args) {

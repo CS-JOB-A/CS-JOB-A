@@ -1,4 +1,4 @@
-package day05;
+package java_240609;
 
 public class ComputerExample {
     public static void main(String[] args) {

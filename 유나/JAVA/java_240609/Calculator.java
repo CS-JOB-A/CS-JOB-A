@@ -1,4 +1,4 @@
-package day05;
+package java_240609;
 
 public class Calculator {
     // 정사각형

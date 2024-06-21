@@ -1,4 +1,4 @@
-package day01;
+package java_240531;
 
 public class day01_refercheck {
     public static void main(String[] args){

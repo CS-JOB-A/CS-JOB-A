@@ -1,4 +1,4 @@
-package day03;
+package java_240606;
 
 public class Student {
 }

@@ -1,4 +1,4 @@
-package day02;
+package java_240602;
 
 public class day03_enum {
     public static void main(String[] args) {

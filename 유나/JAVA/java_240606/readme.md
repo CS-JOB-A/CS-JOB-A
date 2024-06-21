@@ -62,15 +62,16 @@
   - 명확한 식별 : 외부에서 접근시 소스 파일명과 클래스명이 일치하면 파일 시스템에서 쉽게찾을 수 있기 때문
   - 컴파일러의 효율성 : 클래스 로딩과 관련된 작업 효율적 처리 가능 -> 컴파일 시간 줄이고 오류 방지
   - 코드 관리 및 유지 보수, 몇몇 규칙 및 일관성
+
 ```java
-package day03; // 패키지 선언
+package java_240606; // 패키지 선언
 
 // 클래스 선언
 public class day03_PublicClass {
 }
 
 // 클래스 선언
-class newClass{
+class newClass {
 }
 ```
 
@@ -78,21 +79,23 @@ class newClass{
 - 자바 프로그램 : 하나의 실행 클래스와 여러 개의 라이브러리 클래스들로 구성  
 
 1. 라이브러리 (library) : 실행할 수 없으며 다른 클래스에서 이용하는 클래스
+
 ```java
-package day03;
+package java_240606;
 
 public class Student {
 }
 ```
 2. 실행 클래스(main) : 메소드를 가지고 있는 실행 가능한 클래스
+
 ```java
-package day03;
+package java_240606;
 
 public class StudentExample {
-  public static void main(String[] args) {
-    Student s1 = new Student();
-    System.out.println("Student 객체 참조합니다.");
-  }
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        System.out.println("Student 객체 참조합니다.");
+    }
 }
 ```
 

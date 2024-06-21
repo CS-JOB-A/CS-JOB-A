@@ -1,4 +1,4 @@
-package day04;
+package java_240607;
 
 public class Korean {
     // 필드 선언

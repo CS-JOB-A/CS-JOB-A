@@ -1,4 +1,4 @@
-package day02;
+package java_240602;
 
 public enum Week {
     MONDAY,
