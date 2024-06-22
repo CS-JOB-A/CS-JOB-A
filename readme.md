@@ -49,7 +49,7 @@
 |8| :white_large_square: | 8일차 | :white_check_mark: 수민 |
 |9| :white_large_square: | 9일차 | :white_check_mark: 수민 |
 |10| :white_large_square: | 10일차| :white_check_mark: 수민 |
-|11| :white_large_square: | 11일차| |
+|11| :white_large_square: | 11일차| :white_check_mark: 수민 |
 |12| :white_large_square: | 12일차 | |
 |13| :white_large_square: | 13일차 | |
 |14| :white_large_square: | 14일차 | |
