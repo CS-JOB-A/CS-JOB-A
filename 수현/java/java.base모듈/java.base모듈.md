@@ -225,4 +225,37 @@ public class MemberExample {
     - hashCode()는 객체를 빠르게 찾기 위해 사용되고, equals()는 실제로 객체가 동일한지 확인하는 데 사용됩니다.
 
 
-# 객체 문자 정보
+3. 객체 문자 정보
+- Object의 toString() 메소드는 객체의 문자 정보(객체를 문자열로 표현한 값)를 리턴
+- toString() 메소드를 재정의 하지 않으면 기본 toString() 메소드가 사용되며, 클래스 이름과 해시 코드가 포함된 문자열을 반환한다
+- 객체의 문자 정보가 중요한 경우에는 Object의 toString() 메소드를 재정의해서 간결하고 유익한 정보를 리턴하도록 해야한다
+``` java
+public class SmartPhone {
+    private String company;
+    private String os;
+
+    public SmartPhone(String company, String os) {
+        this.company = company;
+        this.os = os;
+    }
+
+    @Override
+    public String toString() {
+        return company + ", " + os;
+    }
+}
+
+public classs ToStringExample {
+    public static void main(String[] args) {
+        SmartPhone myPhone = new SmartPhone("삼선전자", "안드로이드");
+
+        String strObj = myPhone.toString();
+        System.out.println(strObj);
+
+        System.out.println(myPhone);
+    }
+}
+
+// 실행 결과
+// 삼성전자, 안드로이드
+// 삼성전자, 안드로이드
