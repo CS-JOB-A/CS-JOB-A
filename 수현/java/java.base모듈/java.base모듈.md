@@ -259,3 +259,64 @@ public classs ToStringExample {
 // 실행 결과
 // 삼성전자, 안드로이드
 // 삼성전자, 안드로이드
+```
+
+4. 레코드 선언
+- 데이터 전달을 위한 DTO(Data Transfer Object)를 작성할 때 반복적으로 사용하는 코드를 줄이기 위해 Java 14부터 레코드를 도입되었다(객체 하나를 전달하는것이 정보 각각을 전달하는 것 보다 굳)
+``` java
+// Person DTO
+public class Person {
+    // final로 선언하면 읽기만 가능함
+    private final String name;
+    private final int age;
+
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    // Getter 메소드 
+    public String name() { return this.name; }
+    public String age() { return this.age; }
+
+    @Override
+    public int hasCode() { ... }
+
+    @Override
+    public boolean equals(Object obj) { ... }
+
+    @Override
+    public String toString() { ... }
+}
+
+// 위와 동일한 코드를 생성하는 레코드 선언
+/*
+    - class 키워드 대신에 record로 대체
+    - 클래스 이름 뒤에 괄호를 작성해서 저장할 데이터의 종류를 변수로 선언
+    - 이렇게 선언된 레코드 소스를 컴파일하면 변수의 타입과 이름을 이용해서 private final 필드가 자동 생성되고, 생성자 및 Getter 메소드가 자동으로 추가된다
+*/
+public record Person(String name, int age) {
+
+}
+```
+
+5. 롬복 사용하기(Lombok)
+- JDK에 표함된 표준 라이브러리는 아니지만 개발자들이 즐겨 쓰는 자동 코드 생성 라이브러리이다
+- 롬복은 레코드와 마찬가지로 DTO 클래스를 작성할 때 Getter, Setter, hasCode(), equals(), toString() 메소드를 자동 생성하기 때문에 작성할 코드의 양을 줄여준다
+- 레코드와의 차이점은 필드가 final이 아니며, 값을 읽는 Getter는 getXxx(또는 isXxx)로, 값을 변경하는 Setter는 setXxx로 생성된다는 것이다
+- 이클립스에서는 롬복을 사용하려면 설치 과정이 필요하다... (lombok.jar 파일이 있는 곳으로 이동해서 <strong>java -jar lombok.jar</strong>명령어를 실행한다 -> lombk.jar 파일을 복사한 다음 [Build Path] - [Add to Build Path]를 선택해준다)
+- @Data : 컴파일 과정에서 기본 생성자와 함께 Getter, Setter, hashCode(), equals(), toString() 메소드가 자동 생성된다
+
+![alt text](../java.base모듈/image/image-6.png)
+<br>
+
+| 어노테이션 | 설명 | 
+| --------- | ---- |
+| @NoArgsConstructor | 기본매개변수가 없는 생성자 포함 |
+| @AllArgsConstructor | 모든 필드를 초기화시키는 생성자 포함 |
+| @RequiredArgsConstructor | 기본적으로 매개변수가 없는 생성자 포함, 만약 final 또는 @NotNull이 붙은 필드가 있다면 이 필드만 초기화시키는 생성자 포함 | 
+| @Getter | Getter 메소드 포함 |
+| @Setter | Setter 메소드 포함 |
+| @EqualsArgsHashCode | equals()와 hashCode() 메소드 포함 |
+| @ToString | toString()메소드 포함 |
+- @Data는 @RequiredArgsConstructor, @Getter, @Setter, @EqualsAndHashCode, @ToString 이노테이션들이 합쳐진 것과 동일한 효과를 낸다(각각 필요할 때는 각각 쓰는게 좋겠지)
