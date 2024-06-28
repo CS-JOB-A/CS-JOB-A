@@ -2,7 +2,7 @@
 - 자식 객체 생성시 부모 객체가 먼저 생성된 다음에 자식 객체 생성
 
 ### 부모 생성자 호출 과정
-![img.png](img.png)  
+![img.png](imgs/img.png)  
 - 모든 객체 생성자를 호출해야만 생성
 - 부모 생성자는 자식 생성자 맨 첫 줄에 숨겨져 있는 super() 호출
   - super()
@@ -78,7 +78,7 @@ SmartPhone(String model, String color) 생성자 실행됌
 - 매소드 오버라이딩 : 상속된 메소드를 자식 클래스에서 재정의하는 것
 - 부모 메소드는 숨겨지고, 자식 메소드가 우선적으로 사용
 
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 메소드 오버라이딩 규칙  
 1. 부모 메소드의 선언부(리턴 타입, 메소드 이름, 매개변수)와 동일해야 한다.
@@ -174,24 +174,5 @@ protected
 - 같은 패키지에서는 접근 가능
 - 다른 패키지의 경우 자식 클래스만 접근 허용
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 
-# 7.7 타입 변환
-- 클래스의 타입 변환 -> 상속 관계에 있는 클래스에서 발생
-
-## 자동 타입 변환
-- 자식은 부모의 특징과 기능을 상속 받음 -> 동일하게 취급될 수 있음
-![img_3.png](img_3.png)
-
-- 고양이는 동물에 속한다 == 고양이는 동물이다
-![img_4.png](img_4.png)
-
-```java
-Cat cat = new Cat(); // Animal animal = new Cat(); 도 가능
-Animal animal = cat;
-
-cat == animal // true
-```
-
-- 상속 계층에서 상위 타입이라면 자동 타입 변환
-![img_5.png](img_5.png)
