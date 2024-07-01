@@ -3,10 +3,10 @@
 
 ## 자동 타입 변환
 - 자식은 부모의 특징과 기능을 상속 받음 -> 동일하게 취급될 수 있음
-  ![img.png](img.png)
+  ![img.png](imgs/img.png)
 
 - 고양이는 동물에 속한다 == 고양이는 동물이다
-  ![img_1.png](img_1.png)
+  ![img_1.png](imgs/img_1.png)
 
 ```java
 Cat cat = new Cat(); // Animal animal = new Cat(); 도 가능
@@ -16,7 +16,7 @@ cat == animal // true
 ```
 
 - 상속 계층에서 상위 타입이라면 자동 타입 변환
-  ![img_2.png](img_2.png)
+  ![img_2.png](imgs/img_2.png)
 
 ```java
 package java_240628;
@@ -60,7 +60,7 @@ public class PromotionExample {
 - 변수는 자식 객체를 참조 -> 변수로 접근 가능한 멤버는 부모 클래스 멤버로 한정
 - 자식 클래스에서 오버라이딩된 메소드 -> 부모 메소드 X 오버라이딩된 메소드가 호출
 
-![img_3.png](img_3.png)
+![img_3.png](imgs/img_3.png)
 
 ## 강제 타입 변환
 - 캐스팅 연산자로 부모 타입을 자식 타입으로 강제 타입 변환
@@ -70,7 +70,7 @@ public class PromotionExample {
 Parent parent = new Child(); // 자동 타입 변환
 Child child = (Child) parent; // 강제 타입 변환
 ```
-![img_4.png](img_4.png)
+![img_4.png](imgs/img_4.png)
 
 # 7.8 다형성
 - 사용 방법은 동일하지만 실행 결과가 다양하게 나오는 성질
@@ -81,7 +81,7 @@ Child child = (Child) parent; // 강제 타입 변환
 - 사용 방법은 동일함
 
 예제  
-- Tire를 상속받은 한국타이어, 금호타이어가 roll 메소느 오버라이딩
+- Tire를 상속받은 한국타이어, 금호타이어가 roll 메소드 오버라이딩
 - 대입되는 객체에 따라 print 되는 값이 달라짐
 
 
