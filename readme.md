@@ -27,7 +27,7 @@
 |9| :white_check_mark: | 9. 운영체제 시작하기 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |10| :white_check_mark: | 10. 프로세스와 스레드| :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |11| :white_check_mark: | 11. CPU 스케줄링 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
-|12| :white_large_square: | 12. 프로세스 동기화 | |
+|12| :white_large_square: | 12. 프로세스 동기화 | :white_check_mark: 수민 |
 |13| :white_large_square: | 13. 교착 상태 | |
 |14| :white_large_square: | 14. 가상 메모리 | |
 |15| :white_large_square: | 15. 파일 시스템| |
