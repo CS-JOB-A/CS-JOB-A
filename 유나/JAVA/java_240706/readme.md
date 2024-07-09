@@ -4,7 +4,7 @@
 - 객체의 교체 발생 시 인터페이스에서 처리
 - 인터페이스를 통해 다형성을 구현
 
-![img.png](img.png)
+![img.png](imgs/img.png)
 
 # 8.2 인터페이스와 구현 클래스 선언
 ## 인터페이스 선언
@@ -23,7 +23,7 @@ public interface 인터페이스명 {
 ```
 
 ## 구현 클래스 선언
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 - 객체 A가 인터페이스의 추상 메소드 호출 -> 인터페이스는 객체 B의 메소드 실행
 - 객체 B에 인터페이스에 선언된 추상 메소드와 동일한 선언부를 가진 (재정의된) 메소드 필요
@@ -37,7 +37,7 @@ public interface 인터페이스명 {
 - 인터페이스에서는 추상 메소드만 정의
 - 구현 클래스에서 그에 대한 내용을 재정의한다!
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 
 - RemoteControl
 ```java
@@ -94,7 +94,7 @@ TV를 켭니다.
 - 추가 예제  
   - 구현 객체가 두개인 경우
 
-![img_3.png](img_3.png)
+![img_3.png](imgs/img_3.png)
 
 ---
 - Audio
@@ -154,10 +154,8 @@ public class RemoteControlExample {
 ## 8.4 추상 메소드
 - 리턴 타입, 메소드명, 매개변수만 기술되고 중괄호를 붙이지 않음
 
-![img_4.png](img_4.png)
+![img_4.png](imgs/img_4.png)
 
 ```java
 void turnOn(); // 메소드 선언부만 작성
 ```
-
-## 8.5 디폴트 메소드
