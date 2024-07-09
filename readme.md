@@ -30,7 +30,7 @@
 |12| :white_check_mark: | 12. 프로세스 동기화 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
 |13| :white_check_mark: | 13. 교착 상태 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |14| :white_large_square: | 14. 가상 메모리 | :white_check_mark: 수민 :white_check_mark: 수현|
-|15| :white_large_square: | 15. 파일 시스템| |
+|15| :white_large_square: | 15. 파일 시스템| :white_check_mark: 수민 |
 
 ---
 
