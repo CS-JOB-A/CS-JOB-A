@@ -1,4 +1,4 @@
-package java_240710;
+package java_240711;
 
 public interface RemoteControl {
     // 상수 필드

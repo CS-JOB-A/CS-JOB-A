@@ -1,0 +1,21 @@
+# 8.6 정적 메소드
+- 정적 메소드 선언 가능
+- 구현 객체 없이 인터페이스 만으로 호출 가능
+- public을 생략하더라도 자동으로 컴파일 과정에서 붙는다!!
+- 주의점 
+  - 상수 필드를 제외한 추상 메소드, 디폴트 메소드, private 메소드 등을 호출할 수 없음
+  - 구현 객체가 필요한 인스턴스 메소드이기 때문
+
+```java
+    // 정적 메소드 - RemoteControl.chageBattery 로 접근 가능
+    static void chageBattery() {
+        System.out.println("리모콘 건전지를 교환합니다.");
+    }
+```
+
+- 실행 결과
+```java
+![img.png](img.png)
+```
+
+# 8.7 private 메소드

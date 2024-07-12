@@ -1,4 +1,4 @@
-package java_240710;
+package java_240711;
 
 public class RemoteControlExample {
     public static void main(String[] args) {

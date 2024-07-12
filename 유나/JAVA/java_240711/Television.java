@@ -1,4 +1,4 @@
-package java_240710;
+package java_240711;
 
 public class Television implements RemoteControl {
     // 필드
