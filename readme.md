@@ -19,7 +19,7 @@
 |1| :white_check_mark: | 1. 컴퓨터 구조 시작하기|:white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현|
 |2| :white_check_mark: | 2. 데이터 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |3| :white_check_mark: | 3. 명령어 | :white_check_mark: 수현 :white_check_mark: 수민 :white_check_mark: 유나 | 
-|4| :white_check_mark: | 4. CPU의 작동 원리| :white_check_mark: 수민 :white_check_mark: 수현  
+|4| :white_check_mark: | 4. CPU의 작동 원리| :white_check_mark: 수민 :white_check_mark: 수현  :white_check_mark: 유나 | 
 |5| :white_check_mark: | 5. CPU의 성능 향상 기법 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |6| :white_check_mark: | 6. 메모리와 캐시 메모리 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 |7| :white_check_mark: | 7. 보조기억장치| :white_check_mark: 수민 :white_check_mark: 유나  :white_check_mark: 수현 |
