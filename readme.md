@@ -11,7 +11,7 @@
 |[문수민](https://github.com/notegyul)|[안유나](https://github.com/YUNA-AHN)|[조수현](https://github.com/chosuhyeon0812)|
 
 
-### 컴퓨터-구조
+### 컴퓨터 구조 + 운영체제
 참고 자료 : [개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://www.inflearn.com/course/%ED%98%BC%EC%9E%90-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/dashboard)
 
 |파트|진행상태|강의내용|개별 진행 체크| 
@@ -30,7 +30,7 @@
 |12| :white_check_mark: | 12. 프로세스 동기화 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
 |13| :white_check_mark: | 13. 교착 상태 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |14| :white_check_mark: | 14. 가상 메모리 | :white_check_mark: 수민 :white_check_mark: 수현  :white_check_mark: 유나|
-|15| :white_large_square: | 15. 파일 시스템| :white_check_mark: 수민 :white_check_mark: 수현|
+|15| :white_check_mark: | 15. 파일 시스템| :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
 
 ---
 
@@ -54,53 +54,42 @@
 |13| :white_check_mark: | 13일차 | :white_check_mark: 수민  :white_check_mark: 수현 :white_check_mark: 유나 |
 |14| :white_large_square: | 14일차 | :white_check_mark: 수민 |
 |15| :white_large_square: | 15일차| :white_check_mark: 수민 |
+|16| :white_large_square: | 16일차 |  |
+|17| :white_large_square: | 17일차|  |
+|18| :white_large_square: | 18일차 |  |
+|19| :white_large_square: | 19일차|  |
+|20| :white_large_square: | 20일차 |  |
+|21| :white_large_square: | 21일차|  |
+|22| :white_large_square: | 22일차 |  |
+|23| :white_large_square: | 23일차|  |
+|24| :white_large_square: | 24일차 |  |
+|25| :white_large_square: | 25일차|  |
+|26| :white_large_square: | 26일차 |  |
+|27| :white_large_square: | 27일차|  |
+|28| :white_large_square: | 28일차 |  |
+|29| :white_large_square: | 29일차|  |
+|30| :white_large_square: | 30일차 |  |
+|31| :white_large_square: | 31일차|  |
+|32| :white_large_square: | 32일차 |  |
+|33| :white_large_square: | 33일차|  |
 
----
-
-
-### 이산 수학 
-|파트|진행상태|학습시간|강의내용|개별 진행 체크|
-| ------ | ------ | ------ | ------ | ------ |
-| | | | [강의 개요](이산-수학) | |
-|1| :white_check_mark:   |2| [이산수학 기초](이산-수학/이산수학-기초) | |
-|1| :white_large_square: |5| [명제,추론,귀납,부울대수](이산-수학/명제,추론,귀납,부울대수) | |
-|2| :white_large_square: |3| [알고리즘,그래프](이산-수학/알고리즘,그래프.md) | |
-|2| :black_large_square: |2| [형식언어와 오토마타,셈](이산-수학/형식언어와-오토마타,셈.md) | |
-|2| :white_large_square: |3| [관계,부분순서](이산-수학/관계,부분순서.md) | |
-
-
----
-
-### 운영체제
-|파트|진행상태|학습시간|강의내용|개별 진행 체크|
-| ------ | ------ | ------ | ------ | ------ |
-| | | | [강의 개요](운영체제) ||
-|1| :white_large_square: |5| [1, 2장 운영체제 개요 및 컴퓨터시스템의 구조](운영체제/1,-2장-운영체제-개요-및-컴퓨터시스템의-구조.md) | |
-|1| :white_large_square: |4| [3장 프로세스](운영체제/3장-프로세스.md) | |
-|1| :white_large_square: |4| [4장 프로세스 관리](운영체제/4장-프로세스-관리.md) | |
-|1| :white_large_square: |3| [5장 CPU 스케쥴링](운영체제/5장-CPU-스케쥴링.md) | |
-|1| :white_large_square: |5| [6장 프로세스 동기화](운영체제/6장-프로세스-동기화.md) | |
-|1| :white_large_square: |3| [7장 교착상태](운영체제/7장-교착상태.md) | |
-|2| :white_large_square: |5| [8장 메모리 관리](운영체제/8장-메모리-관리.md) | |
-|2| :white_large_square: |4| [9장 가상 메모리](운영체제/9장-가상-메모리.md) | |
-|2| :white_large_square: |4| [10, 11장 파일 시스템과 구현](운영체제/10,-11장-파일-시스템과-구현.md) | |
-|2| :white_large_square: |3| [12장 디스크 관리 및 스케쥴링](운영체제/12장-디스크-관리-및-스케쥴링.md) | |
 
 ---
 
 ### 네트워크
-권장 학습기간: `2주`, 학습분량: 주당 `7.5시간`
+참고 자료 : [네트워크 기초](https://youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&si=fsVKjHtsaeriSUD6)
+|파트|진행상태|강의내용|개별 진행 체크|
+| ------ | ------ | ------ | ------ |
+| | | | [강의 개요](운영체제) ||
+|1| :white_large_square: | 1, 2, 3강 | |
+|1| :white_large_square: | 4, 5강 | |
+|2| :white_large_square: | 6강 | |
+|3| :white_large_square: | 추후수정 | |
+|4| :white_large_square: | 추후수정 | |
+|5| :white_large_square: | 추후수정 | |
+|6| :white_large_square: | 추후수정 | |
+|7| :white_large_square: | 추후수정 | |
+|8| :white_large_square: | 추후수정 | |
+|9| :white_large_square: | 추후수정 | |
 
-|파트|진행상태|학습시간|강의내용|개별 진행 체크|
-| ------ | ------ | ------ | ------ | ------ |
-| | | | [강의 개요](네트워크) | |
-|1| :white_large_square: |1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) | |
-|1| :white_large_square: |1| [3장 데이터 통신](네트워크/3장-데이터-통신.md) | |
-|1| :white_large_square: |2| [4장 IP 주소](네트워크/4장-IP-주소.md) | |
-|1| :white_large_square: |1| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) | |
-|1| :white_large_square: |2| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) | |
-|2| :white_large_square: |2| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) | |
-|2| :white_large_square: |1| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) | |
-|2| :white_large_square: |2| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) | |
-|2| :white_large_square: |1| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) | |
-|2| :white_large_square: |2| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) | |
+---
