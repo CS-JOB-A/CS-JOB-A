@@ -54,9 +54,9 @@
 |13| :white_check_mark: | 13일차 | :white_check_mark: 수민  :white_check_mark: 수현 :white_check_mark: 유나 |
 |14| :white_check_mark: | 14일차 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
 |15| :white_large_square: | 15일차| :white_check_mark: 수민 |
-|16| :white_large_square: | 16일차 |  |
-|17| :white_large_square: | 17일차|  |
-|18| :white_large_square: | 18일차 |  |
+|16| :white_large_square: | 16일차 |  :white_check_mark: 수민 |
+|17| :white_large_square: | 17일차|  :white_check_mark: 수민 |
+|18| :white_large_square: | 18일차 |  :white_check_mark: 수민 |
 |19| :white_large_square: | 19일차|  |
 |20| :white_large_square: | 20일차 |  |
 |21| :white_large_square: | 21일차|  |
@@ -80,10 +80,10 @@
 참고 자료 : [네트워크 기초](https://youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&si=fsVKjHtsaeriSUD6)
 |파트|진행상태|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ |
-|1| :white_large_square: | 1, 2, 3강 | |
-|1| :white_large_square: | 4, 5강 | |
-|2| :white_large_square: | 6강 | |
-|3| :white_large_square: | 추후수정 | |
+|1| :white_large_square: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 |
+|1| :white_large_square: | 4, 5강 | :white_check_mark: 수민 |
+|2| :white_large_square: | 6강 | :white_check_mark: 수민 |
+|3| :white_large_square: | 추후수정 | |`
 |4| :white_large_square: | 추후수정 | |
 |5| :white_large_square: | 추후수정 | |
 |6| :white_large_square: | 추후수정 | |
