@@ -80,10 +80,10 @@
 참고 자료 : [네트워크 기초](https://youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&si=fsVKjHtsaeriSUD6)
 |파트|진행상태|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ |
-|1| :white_large_square: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 |
+|1| :white_check_mark: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
 |1| :white_large_square: | 4, 5강 | :white_check_mark: 수민 |
 |2| :white_large_square: | 6강 | :white_check_mark: 수민 |
-|3| :white_large_square: | 추후수정 | |`
+|3| :white_large_square: | 추후수정 | |
 |4| :white_large_square: | 추후수정 | |
 |5| :white_large_square: | 추후수정 | |
 |6| :white_large_square: | 추후수정 | |
