@@ -82,7 +82,7 @@
 | ------ | ------ | ------ | ------ |
 |1| :white_large_square: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 |
 |1| :white_large_square: | 4, 5강 | :white_check_mark: 수민 |
-|2| :white_large_square: | 6강 | |
+|2| :white_large_square: | 6강 | :white_check_mark: 수민 |
 |3| :white_large_square: | 추후수정 | |`
 |4| :white_large_square: | 추후수정 | |
 |5| :white_large_square: | 추후수정 | |
