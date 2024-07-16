@@ -16,7 +16,7 @@
 - WAN (Wide Area Network)
   - 멀리 있는 지역을 한데 묶은 네트워크
   - 가까운 지역끼리 묶인 여러 개의 LAN을 다시 하나로 묶은 것
-  - ![img.png](img.png)
+  - ![img.png](imgs/img.png)
 - MAN (Metropolitan Area Network)
 - 기타 (VLAN, CAN, PAN 등)
 
@@ -24,15 +24,15 @@
 - Star형 : 중앙 장비에 모든 노드가 연결
   - 중앙 장비가 고장나는 경우 연결된 모든 장치 사용할 수 없음
   - LAN 대역(가까운 지역)을 만들 때 사용
-  - ![img_1.png](img_1.png)
+  - ![img_1.png](imgs/img_1.png)
 - Mesh형 : 여러 노드들이 서로 그물처럼 연결
   - 장비 하나가 고장나더라도 다른 장치는 사용 가능
   - WAN 대역(넓은 지역)을 만들 때 사용
-  - ![img_2.png](img_2.png)
+  - ![img_2.png](imgs/img_2.png)
 - Tree형 : 마치 나무의 가지처럼 계층 구조로 연결
 - 기타 : 링형, 버스형, 혼합형 등
   - 혼합형 : 실제 인터넷은 여러 형태를 혼합한 형태
-  - ![img_3.png](img_3.png)
+  - ![img_3.png](imgs/img_3.png)
 
 ## 네트워크의 통신 방식
 ### 네트워크에서 데이터를 주고받는 방식
@@ -51,4 +51,4 @@
 
 - 패킷
   - 여러 프로토콜들로 캡슐화되어 있음
-  - ![img_4.png](img_4.png)
+  - ![img_4.png](imgs/img_4.png)
