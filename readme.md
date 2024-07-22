@@ -54,7 +54,7 @@
 |13| :white_check_mark: | 13일차 | :white_check_mark: 수민  :white_check_mark: 수현 :white_check_mark: 유나 |
 |14| :white_check_mark: | 14일차 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
 |15| :white_check_mark: | 15일차| :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
-|16| :white_large_square: | 16일차 |  :white_check_mark: 수민 :white_check_mark: 수현 |
+|16| :white_check_mark: | 16일차 |  :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
 |17| :white_large_square: | 17일차|  :white_check_mark: 수민 |
 |18| :white_large_square: | 18일차 |  :white_check_mark: 수민 |
 |19| :white_large_square: | 19일차|  :white_check_mark: 수민 |
@@ -80,15 +80,17 @@
 참고 자료 : [네트워크 기초](https://youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&si=fsVKjHtsaeriSUD6)
 |파트|진행상태|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ |
-|1| :white_check_mark: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
-|2| :white_check_mark: | 4, 5강 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
-|3| :white_check_mark: | 6강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
-|4| :white_large_square: | 7, 8강 | :white_check_mark: 수민 :white_check_mark: 수현 |
-|5| :white_large_square: | 9-15강 | |
-|6| :white_large_square: | 9-15강 | |
-|7| :white_large_square: | 추후수정 | |
-|8| :white_large_square: | 추후수정 | |
-|9| :white_large_square: | 추후수정 | |
-|10| :white_large_square: | 추후수정 | |
+|1| :white_check_mark: | 1장| :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
+|2| :white_check_mark: | 2장, 3장 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
+|3| :white_check_mark: | 4장 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
+|4| :white_check_mark: | 5장 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나|
+|5| :white_large_square: | 6장 (1) | |
+|6| :white_large_square: | 6장 (2) | |
+|7| :white_large_square: | 7장 | |
+|8| :white_large_square: | 8장, 9장 (1) | |
+|9| :white_large_square: | 9장 (2) | |
+|10| :white_large_square: | 10장 | |
+|11| :white_large_square: | 11장 (1) | |
+|12| :white_large_square: | 11장 (2) | |
 
 ---
