@@ -81,14 +81,14 @@
 |파트|진행상태|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ |
 |1| :white_check_mark: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
-|1| :white_check_mark: | 4, 5강 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
-|2| :white_check_mark: | 6강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
-|3| :white_large_square: | 추후수정 | |
-|4| :white_large_square: | 추후수정 | |
-|5| :white_large_square: | 추후수정 | |
-|6| :white_large_square: | 추후수정 | |
+|2| :white_check_mark: | 4, 5강 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
+|3| :white_check_mark: | 6강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
+|4| :white_large_square: | 7, 8강 | :white_check_mark: 수민 :white_check_mark: 수현 |
+|5| :white_large_square: | 9-15강 | |
+|6| :white_large_square: | 9-15강 | |
 |7| :white_large_square: | 추후수정 | |
 |8| :white_large_square: | 추후수정 | |
 |9| :white_large_square: | 추후수정 | |
+|10| :white_large_square: | 추후수정 | |
 
 ---
