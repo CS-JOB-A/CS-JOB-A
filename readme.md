@@ -83,7 +83,7 @@
 |1| :white_check_mark: | 1, 2, 3강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나  |
 |2| :white_check_mark: | 4, 5강 | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |3| :white_check_mark: | 6강 | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
-|4| :white_large_square: | 7, 8강 | :white_check_mark: 수민 |
+|4| :white_large_square: | 7, 8강 | :white_check_mark: 수민 :white_check_mark: 수현 |
 |5| :white_large_square: | 9-15강 | |
 |6| :white_large_square: | 9-15강 | |
 |7| :white_large_square: | 추후수정 | |
