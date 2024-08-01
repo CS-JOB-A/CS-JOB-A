@@ -4,7 +4,8 @@
 
 1. 설명..
 
-- 함수형 프로그래밍에서 사용하는 식으로, 함수를 정의하고 이 함수를 데이터 처리부로 보내 데이터를 처리하는 기법
+- 함수를 간결하게 표현하는 방법
+- 일반적으로 함수를 선언할 때는 이름, 매개변수, 반환 타입 등을 명시하지만, 람다식은 이를 생략하고 간단하게 함수를 표현
 <br>
 
 ![alt text](image.png)
@@ -23,7 +24,7 @@
 ``` java
 @FunctionalIntergace
 public interface Calculate {
-    void calculate(int x, int y); // 추상 메소드
+    void calculate(int x, int y); 
 }
 ```
 
