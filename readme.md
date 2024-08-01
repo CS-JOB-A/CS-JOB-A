@@ -61,7 +61,7 @@
 |20| :white_large_square: | 20일차 |  :white_check_mark: 수민 |
 |21| :white_large_square: | 21일차|  :white_check_mark: 수민 |
 |22| :white_large_square: | 22일차 |  :white_check_mark: 수민 |
-|23| :white_large_square: | 23일차|  |
+|23| :white_large_square: | 23일차|  :white_check_mark: 수민 |
 |24| :white_large_square: | 24일차 |  |
 |25| :white_large_square: | 25일차|  |
 |26| :white_large_square: | 26일차 |  |
