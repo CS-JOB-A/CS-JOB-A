@@ -88,7 +88,7 @@
 |6| :white_check_mark: | 6장 (2) | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나   |
 |7| :white_check_mark: | 7장 | :white_check_mark: 수민  :white_check_mark: 수현 :white_check_mark: 유나|
 |8| :white_large_square: | 8장, 9장 (1) | :white_check_mark: 수민 :white_check_mark: 유나  :white_check_mark: 수현 |
-|9| :white_large_square: | 9장 (2) | :white_check_mark: 수민 :white_check_mark: 유나 |
+|9| :white_large_square: | 9장 (2) | :white_check_mark: 수민 :white_check_mark: 유나 :white_check_mark: 수현 |
 |10| :white_large_square: | 10장 | |
 |11| :white_large_square: | 11장 (1) | |
 |12| :white_large_square: | 11장 (2) | |
