@@ -39,19 +39,44 @@
 
 ## 객체 동등 비교
 - 자동 타입 변환에 의해 모든 객체가 매개값으로 대입될 수 있다.
-- equals() 메소드는 비교연산자인 ==과 동일한 결과 리턴
+- `equals()` 메소드는 비교연산자인 ==과 동일한 결과 리턴
   - 두 객체 동일 true 리턴, 그렇지 않으면 false 리턴
 - 재정의 하여 동등 비교용으로 사용
 - 동등 비교 : 객체가 달라도 내부의 데이터가 같은지 비교
 
+```java
+package java_240808;
+
+public class Member {
+    public String id;
+
+    public Member(String id) {
+        this.id = id;
+    }
+
+    // Object의 equals() 메소드 재정의
+    @Override
+    public boolean equals(Object obj) {
+        // obj가 Member 타입인지 검사하고 타입 변환 후 target 변수에 대입
+        if(obj instanceof Member target){
+            // id 문자열이 같은지 비교
+            if(id.equals(target.id)) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+
 ## 객체 해시 코드
 - 객체를 식별하는 정수
-- hashCode() 메소드 : 객체의 메모리 번지를 이용해 해시코드 생성. 객체마다 다른 정수값을 리턴
+- `hashCode()` 메소드 : 객체의 메모리 번지를 이용해 해시코드 생성. 객체마다 다른 정수값을 리턴
 - 두 객체 동등한지 비교할 때 주로 사용
 - 객체의 데이터를 기준으로 재정의하여 새로운 정수값을 리턴하도록 하는 것이 일반적
 - 내부 데이터가 동일하다면 같은 정수값을 이턴
-- 자바는 hashCode()와 equals() 메소드 같이 사용하는 경우가 많음
-  - hashCode()가 리턴하는 정수값이 같은지 확인
-  - 그 다음 equals() 메소드가 true를 리턴하는지 확인하여 판단
+- 자바는 `hashCode()`와 `equals()` 메소드 같이 사용하는 경우가 많음
+  - `hashCode()`가 리턴하는 정수값이 같은지 확인
+  - 그 다음 `equals()` 메소드가 true를 리턴하는지 확인하여 판단
 
 ![img_2.png](img_2.png)
