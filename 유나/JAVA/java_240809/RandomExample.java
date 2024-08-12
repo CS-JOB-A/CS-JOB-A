@@ -1,7 +1,5 @@
 package java_240809;
 
-import java_240726.ex06.A;
-
 import java.util.Arrays;
 import java.util.Random;
 
