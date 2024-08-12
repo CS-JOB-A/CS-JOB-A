@@ -94,3 +94,24 @@
 |12| :white_check_mark: | 11장 (2) | :white_check_mark: 수민 :white_check_mark: 수현 :white_check_mark: 유나 |
 
 ---
+
+### CS 전공 지식 노트
+참고 자료: [면접을 위한 CS 전공지식노트](https://www.yes24.com/Product/Goods/108887922)
+|파트|진행상태|강의내용|개별 진행 체크|
+| ------ | ------ | ------ | ------ |
+|1| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민 |
+|2| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  |
+|3| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  |
+|4| :white_large_square: | 2장 네트워크 |  |
+|5| :white_large_square: | 2장 네트워크 |  |
+|6| :white_large_square: | 2장 네트워크 |  |
+|7| :white_large_square: | 3장 운영체제 |  |
+|8| :white_large_square: | 3장 운영체제 |  |
+|9| :white_large_square: | 3장 운영체제 |  |
+|10| :white_large_square: | 4장 데이터베이스 |  |
+|11| :white_large_square: | 4장 데이터베이스 |  |
+|12| :white_large_square: | 4장 데이터베이스 |  |
+|13| :white_large_square: | 5장 자료구조 |  |
+|14| :white_large_square: | 5장 자료구조 |  |
+|15| :white_large_square: | 5장 자료구조 |  |
+
