@@ -19,13 +19,13 @@
 - java.lang은 자바 언어의 기본적인 클래스를 담고 있는 페이지
 - 이 패키지에 있는 클래스와 인터페이스는 import 업싱 사용 가능
 
-![img.png](img.png)
+![img.png](imgs/img.png)
 
 # 12.3 Object 클래스
 - 클래스 선언시 extends 키워드로 다른 클래스를 상속하지 않으면 암시적으로 java.lang.Objecr 클래스 상속
 - 자바의 모든 클래스는 Object의 자식이거나 자손 클래스
 
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 - Object가 가진 주요 메소드
   - 모든 객체에서 사용 가능
@@ -79,4 +79,93 @@ public class Member {
   - `hashCode()`가 리턴하는 정수값이 같은지 확인
   - 그 다음 `equals()` 메소드가 true를 리턴하는지 확인하여 판단
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
+
+```java
+package java_240808;
+
+public class Student {
+    private int no;
+    private String name;
+
+    public Student(int no, String name) {
+        this.no  = no;
+        this.name = name;
+    }
+
+    public int getNo() {
+        return no;
+    }
+    public String getName() {
+        return  name;
+    }
+
+    /**
+     * Object의 hashCode() 메소드를 재정의
+     * 학생 번호 + 이름 해시코드 = 새로운 해시코드
+     * 번호와 이름이 같으면 동일한 해시코드 생성
+     */
+    @Override
+    public int hashCode(){
+        int hashCode = no + name.hashCode();
+        return hashCode;
+    }
+
+    /**
+     * Object의 equals 재정의
+     * Student 객체인지 확인, 학생 번호와 이름이 같으면 true 리턴
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Student target) {
+            if(no == target.getNo() && name.equals(target.getName())) {
+                return true;
+            }
+        } return false;
+    }
+}
+
+```
+
+- HashSet : 동등 객체를 중복 저장하지 않음
+  - hashCode()와 equals() 메소드를 이용하여 동등 객체 판단
+
+## 레코드 선언
+- 데이터 전달을 위한 DTO 작성 시 반복적으로 사용되는 코드를 줄이기 위해 레코드 도입
+- record를 class 키워드 대신에 사용
+  - 변수의 타입과 이름을 이용하여 private final 필드가 자동 생성
+  - 생성자 및 Getter 메소드가 자동으로 추가
+  - 메소드를 재정의한 코드도 자동으로 추가. hashCode(), equals(), toString()
+
+```java
+package java_240808.ex01;
+
+public record Member (String id, String name, int age) {
+}
+
+```
+
+
+```java
+package java_240808.ex01;
+
+public class MemberExample {
+    public static void main(String[] args) {
+        Member m = new Member("winter", "눈송이", 25);
+
+        // Getter 메소드 호출
+        System.out.println(m.id());
+        System.out.println(m.name());
+        System.out.println(m.age());
+        System.out.println(m.toString());
+        System.out.println();
+
+        Member m1 = new Member("winter", "눈송이", 25);
+        Member m2 = new Member("winter", "눈송이", 25);
+        System.out.println("m1.hashCode(): " + m1.hashCode());
+        System.out.println("m2.hashCode(): " + m2.hashCode());
+        System.out.println("m1.equals(m2): " + m1.equals(m2));
+    }
+}
+
+```
