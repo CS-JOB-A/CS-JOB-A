@@ -127,3 +127,149 @@ public class HelloWorld {
     }
 }
 ```
+
+
+## 전략 패턴
+
+1. 설명
+
+- 정책 패턴이라고도 하며, 객체의 행위를 바꾸고 싶은 경우 '직접' 수정하지 않고 전략이라고 부르는 '캡슐화한 알고리즘'을 컨텍스트안에서 바꿔주면서 상호 교체가 가능하게 만드는 패턴
+- 예제 너무 길어서 생략... 
+
+
+## 옵저버 패턴
+
+1. 설명
+
+- 주체가 어떤 객체의 상태 변화를 관찰하다가 상태 변화가 있을 때마다 메서드 등을 통해 옵저버 목록에 있는 옵저버들에게 변화를 알려주는 디자인 패턴
+- 주체 : 객체의 상태 변화를 보고 있는 관찰자
+- 옵저버들 : 이 객체의 상태 변화에 따라 전달되는 메서드 등을 기반으로 '추가 변화 사항'이 생기는 객체들
+- 옵저버 패턴을 활용한 서비스로는 트위터가 있다!!
+- 옵저버 패턴은 주로 이벤트 기반 시스템에 사용하며 MVC(Model - View - Controller) 패턴에도 사용된다
+
+
+2. 자바에서는 옵저버 패턴
+
+``` java
+
+interface Subject {
+    public void register(Observer obj);
+    public void unregist(Observer obj);
+    public void notifyObservers();
+    public Object getUpdate(Observer obj);
+}
+
+interface Observer {
+    public void update();
+}
+
+class Topic implements Subjectt {
+    private List<Observer> observers;
+    private String message;
+
+    public Topic() {
+        this.observers = new ArrayList<>();
+        this.message = "";
+    }
+
+    @Override
+    public void register(Observer obj) {
+        if (!observers.contains(obj)) observers.add(obj);
+    }
+
+    @Override
+    public void unregister(Observer obj) {
+        observers.remove(obj);
+    }
+
+    @Override
+    public void notifyObservers() {
+        this.observers.forEach(Observer::update);
+    }
+
+    @Override
+    public Object getUpdate(Observer obj) {
+        return this.message;
+    }
+
+    public void postMessage(String msg) {
+        System.out.println("Message sended to Topic: " + msg);
+        this.message = msg;
+        notifyObservers();
+    }
+}
+
+class TopicSubscriber implements Observer {
+    private String name;
+    private Subject topic;
+
+    public TopicSubscriber(String name, Subject topic) {
+        this.name = name;
+        this.topic = topic;
+    }
+
+    @Override
+    public void update() {
+        String msg = (String) topic.getUpdate(this);
+        System.out.println(name + ";; got message >> " + msg);
+    }
+}
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        Topic topic = new Topic();
+        Observer a = new TopicSubscriber("a", topic);
+        Observer b = new TopicSubscriber("b", topic);
+        Observer c = new TopicSubscriber("c", topic);
+        topic.register(a);
+        topic.register(b);
+        topic.register(c);
+
+        topic.postMessage("amumu is op champion!!");
+    }
+}
+```
+
+
+## 프록시 패턴과 프록시 서버
+
+1. 프록시 패턴 
+
+- 대상 객체에 접근하기 전 그 접근에 대한 흐름을 가로채 대상 객체 앞단의 인터페이스 역할을 하는 디자인 패턴
+- 객체의 속성, 변환 등을 보완하며 보안, 데이터 검증, 캐싱, 로깅에 사용합니다
+
+2. 프록시 서버
+
+- 서버와 클라이언트 사이에서 클라이언트가 자신을 통해 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 컴퓨터 시스템이나 응용 프로그램을 가르킵니다
+- nginx는 비동기 이벤트 기반의 구조와 다수의 연결을 효과적으로 처리 가능한 웹 서버이며, 주로 Node.js 서버 앞단의 프록시 서버로 활용됩니다
+- nginx를 프록시 서버로 둬서 실제 포트를 숨길 수 있고 정적 자원을 gzip 압축하거나, 메인 서버 앞단에서의 로깅을 할 수도 있습니다
+- 프록시 서버로 쓰는 CloudFlare : 전세계적으로 분산된 서버가 있고 이를 통해 어떠한 시스템의 콘텐츠 전달을 빠르게 할 수 있는 CDN 서비스 입니다
+- HTTPS 구축 : 서버에서 HTTPS를 구축할 때 인증서를 기반으로 구축하는데 CloudFlare를 사용하면 별돟의 인증서 설치 없이 좀 더 손쉽게 HTTPS를 구축할 수 있다
+
+
+## 이터레이터 패턴
+
+1. 설명 
+
+- 이터레이터를 사용하여 컬렉션의 요소들에 접근하는 디자인 패턴
+- 이를 통해 순회할 수 있는 여러 가지 자료형의 구조와는 상관없이 이터레이터라는 하나의 인터페이스로 순회가 가능하다
+
+
+## 노출모듈 패턴
+
+1. 설명
+
+- 즉시 실행 함수를 통해 private, public 같은 접근 제어자를 만드는 패턴을 말함
+- 자바스크립트는 private나 public 같은 접근 제어자가 존재하지 않고 전역 범위에서 스크립트가 실행 
+
+## MVC 패턴
+
+1. 설명
+
+- 모델, 뷰, 컨트롤러로 이루어딘 디자인 패턴
+- 애플리케이션의 구성 요소를 세 가지 역할로 구분하여 개발 프로세스에서 각각의 구성 요소에만 집중해서 개발할 수 있다
+- 재사용성과 확장성이 용이하다는 장점이 있고, 애플리케이션이 복잡해질수록 모델과 뷰의 관계가 복잡해지는 단점이 있다      
+- 모델 : 애플리케이션의 데이터인 데이터베이스, 상소, 변수
+- 뷰 : 사용자 인터페이스 요소(사용자가 볼 수 있는 화면)
+- 컨트롤러 : 하나 이상의 모델과 하나 이상의 뷰를 잇는 다리 역할을 하며 이벤트 등 메인 로직을 담당
+- MVC 패턴을 이용한 대표적인 라이브러리  : 리액트
