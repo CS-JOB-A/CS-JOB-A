@@ -99,9 +99,9 @@
 참고 자료: [면접을 위한 CS 전공지식노트](https://www.yes24.com/Product/Goods/108887922)
 |파트|진행상태|강의내용|개별 진행 체크|
 | ------ | ------ | ------ | ------ |
-|1| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민 |
-|2| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  |
-|3| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  |
+|1| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
+|2| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
+|3| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민 :white_check_mark: 수현|
 |4| :white_large_square: | 2장 네트워크 |  |
 |5| :white_large_square: | 2장 네트워크 |  |
 |6| :white_large_square: | 2장 네트워크 |  |
