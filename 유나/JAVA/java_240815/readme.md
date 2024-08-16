@@ -57,7 +57,7 @@ Calendar now = Calendar.getInstance(timeZone);
 - Date와 Calender은 날짜와 시간 조작 불가
 - LocalDateTime 클래스가 제공하여 조작 가능
 
-![img.png](img.png)
+![img.png](imgs/img.png)
 
 ```java
 import java.time.LocalDateTime;
@@ -67,7 +67,7 @@ LocalDateTime now = LocalDateTime.now(); // 날짜아 시간을 얻어 조작
 
 ## 날짜와 시간 비교
 
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 - 특정 날짜와 시간으로 LocalDateTime 객체를 얻는 방법 : int 타입으로 매개값 제공
 
@@ -88,7 +88,7 @@ LocalDateTime target = LocalDateTime.of(year, month, dayOfMontj, hour, minute, s
 - 숫자를 형식화된 문자열로 변환
 - 패턴 정보와 DecimalFormat 객체를 생성하고 `format()` 메소드로 숫자를 제공하면 패턴에 따른 형식화된 문자열
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 
 ```java
 import java.text.DecimalFormat;
@@ -113,4 +113,4 @@ String strDate = sdf.format(new Date()); // 2024년 8월 15일
 ```
 
 
-![img_3.png](img_3.png)
+![img_3.png](imgs/img_3.png)
