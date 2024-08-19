@@ -5,7 +5,7 @@
 ## 정규 표현식 작성 방법
 - 정규 표현식: 문자 또는 숫자와 관련된 표현, 반복 기호가 결합된 문자열
 
-![img.png](img.png)
+![img.png](imgs/img.png)
 
 ```java
 // 전화번호 형식 : 02-335-1156 혹은 010-1156-1157
@@ -89,12 +89,12 @@ Class clazz = str.getClass();
 ## 패키지와 타입 정보 얻기
 - 패키지의 타입(클래스, 인터페이스) 이름 정보 얻는 메소드
 
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 
 ## 멤버 정보 얻기
 - 타입(클래스, 인터페이스)가 가지고 있는 멤버 정보를 얻는 메소드
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 
 
 # 12.12 어노테이션
@@ -116,7 +116,7 @@ Class clazz = str.getClass();
   - 속성의 기본값은  default 키워드로 지정 가능
   - 기본 속성인 value 설정 가능
     - String value(); => `@AnnotationName("값")`
-    - 다른 속성의 값을 동시에 주고 싶다면 반드시 언듭
+    - 다른 속성의 값을 동시에 주고 싶다면 반드시 언급
 
 ```java
 public @interface AnnotaionName {
@@ -128,4 +128,121 @@ public @interface AnnotaionName {
 @AnnotaionName
 @AnnotaionName(prop1 = "값");
 @AnnotaionName(prop1 = "값", prop2 = 3);
+```
+
+## 어노테이션 적용 대상
+- 설정 정보 : 어떤 클래스, 메소드에 적용할 것인지 명식해야 함
+- `@Target` : 적용 대상을 지정할 때 사용. 기본 속성인 value는 ElementType 배열을 값으로 가짐 -> 적용 대상을 복수 개로 지정하기 위함
+
+- 대상의 종류
+![img_3.png](imgs/img_3.png)
+
+![img_4.png](imgs/img_4.png)
+![img_5.png](imgs/img_5.png)
+
+## 어노테이션 유지 정책
+- 어노테이션을 언제까지 유지할 것인지
+- RetentionPolicy 열거 상수로 정의
+- `@Retention` 사용
+
+![img_6.png](imgs/img_6.png)
+![img_7.png](imgs/img_7.png)
+
+## 어노테이션 설정 정보 이용
+- 동작을 가지지 않음
+- 이 정보를 통해서 처리하는 것은 애플리케이션
+- 적용 대상으로부터 어노테이션의 정보를 얻어낼 수 있음
+
+![img_8.png](imgs/img_8.png)
+
+```java
+package java_240816;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.METHOD}) // 적용대상 METHOD
+@Retention(RetentionPolicy.RUNTIME) // 유지정채 RUNTIME
+public @interface PrintAnnotation {
+    String value() default "-"; // 선의 종류
+    int number() default 15; // 출력 횟수
+}
+
+```
+
+```java
+package java_240816;
+
+public class Service {
+    @PrintAnnotation
+    public void method1(){
+        System.out.println("실행 내용1");
+    }
+
+    @PrintAnnotation("*")
+    public void method2(){
+        System.out.println("실행 내용2");
+    }
+
+    @PrintAnnotation(value = "#", number = 20)
+    public void method3() {
+        System.out.println("실행 내용3");
+    }
+}
+
+```
+
+```java
+package java_240816;
+
+import java.lang.reflect.Method;
+
+public class PrintAnnotationExample {
+    public static void main(String[] args) throws Exception {
+        Method[] declaredMethods = Service.class.getDeclaredMethods();
+        for (Method method : declaredMethods) {
+            // PrintAnnotation 얻기
+            PrintAnnotation printAnnotation = method.getAnnotation(PrintAnnotation.class);
+
+            // 설정 정보를 이용해서 선 출력
+            printLine(printAnnotation);
+
+            // 메소드 호출
+            method.invoke(new Service());
+
+            // 설정 정보를 이용해서 선 츨력
+            printLine(printAnnotation);
+        }
+    }
+
+    public static void printLine(PrintAnnotation printAnnotation) {
+        if (printAnnotation != null) {
+            // number 속성값 얻기
+            int number = printAnnotation.number();
+            for (int i=0; i<number; i++) {
+                // value 속성값 얻기
+                String value = printAnnotation.value();
+                System.out.print(value);
+            }
+            System.out.println();
+        }
+
+    }
+}
+
+```
+
+```java
+---------------
+실행 내용1
+---------------
+***************
+실행 내용2
+***************
+####################
+실행 내용3
+####################
+
 ```
