@@ -102,7 +102,7 @@
 |1| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
 |2| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
 |3| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민 :white_check_mark: 수현|
-|4| :white_large_square: | 2장 네트워크 |  :white_check_mark: 수민 |
+|4| :white_large_square: | 2장 네트워크 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |5| :white_large_square: | 2장 네트워크 |  |
 |6| :white_large_square: | 2장 네트워크 |  |
 |7| :white_large_square: | 3장 운영체제 |  |
