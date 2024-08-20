@@ -102,16 +102,23 @@
 |1| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
 |2| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민  :white_check_mark: 수현|
 |3| :white_large_square: | 1장 디자인 패턴과 프로그래밍 패러다임 |  :white_check_mark: 수민 :white_check_mark: 수현|
-|4| :white_large_square: | 2장 네트워크 |  :white_check_mark: 수민 :white_check_mark: 수현 |
-|5| :white_large_square: | 2장 네트워크 |  |
-|6| :white_large_square: | 2장 네트워크 |  |
-|7| :white_large_square: | 3장 운영체제 |  |
-|8| :white_large_square: | 3장 운영체제 |  |
-|9| :white_large_square: | 3장 운영체제 |  |
-|10| :white_large_square: | 4장 데이터베이스 |  |
-|11| :white_large_square: | 4장 데이터베이스 |  |
-|12| :white_large_square: | 4장 데이터베이스 |  |
-|13| :white_large_square: | 5장 자료구조 |  |
-|14| :white_large_square: | 5장 자료구조 |  |
-|15| :white_large_square: | 5장 자료구조 |  |
+|4| :white_large_square: | 2장 네트워크: 네트워크의 기초 |  :white_check_mark: 수민 :white_check_mark: 수현 |
+|5| :white_large_square: | 2장 네트워크: TCP/IP 4계층 모델 |  :white_check_mark: 수민 :white_check_mark: 수현 |
+|6| :white_large_square: | 2장 네트워크: 네트워크 기기 |  :white_check_mark: 수민 |
+|7| :white_large_square: | 2장 네트워크: IP 주소 |  |
+|8| :white_large_square: | 2장 네트워크: HTTP |  |
+|9| :white_large_square: | 3장 운영체제: 운영체제와 컴퓨터 |  |
+|10| :white_large_square: | 3장 운영체제: 메모리 |  |
+|11| :white_large_square: | 3장 운영체제: 프로세스와 스레드 |  |
+|12| :white_large_square: | 3장 운영체제: CPU 스케줄링 알고리즘 |  |
+|13| :white_large_square: | 4장 데이터베이스: 데이터 베이스 기본 |  |
+|14| :white_large_square: | 4장 데이터베이스: ERD와 정규화 과정 |  |
+|15| :white_large_square: | 4장 데이터베이스: 트랜잭션과 무결성 |  |
+|16| :white_large_square: | 4장 데이터베이스: 데이터베이스의 종류 |  |
+|17| :white_large_square: | 4장 데이터베이스: 인덱스 |  |
+|18| :white_large_square: | 4장 데이터베이스: 조인의 종류 |  |
+|19| :white_large_square: | 4장 데이터베이스: 조인의 원리 |  |
+|20| :white_large_square: | 5장 자료구조: 복잡도 |  |
+|21| :white_large_square: | 5장 자료구조: 선형 자료 구조 |  |
+|22| :white_large_square: | 5장 자료구조: 비선형 자료 구조 |  |
 
