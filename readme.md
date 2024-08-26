@@ -105,7 +105,7 @@
 |4| :white_large_square: | 2장 네트워크: 네트워크의 기초 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |5| :white_large_square: | 2장 네트워크: TCP/IP 4계층 모델 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |6| :white_large_square: | 2장 네트워크: 네트워크 기기 |  :white_check_mark: 수민 :white_check_mark: 수현 |
-|7| :white_large_square: | 2장 네트워크: IP 주소 |  :white_check_mark: 수민 |
+|7| :white_large_square: | 2장 네트워크: IP 주소 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |8| :white_large_square: | 2장 네트워크: HTTP |  |
 |9| :white_large_square: | 3장 운영체제: 운영체제와 컴퓨터 |  |
 |10| :white_large_square: | 3장 운영체제: 메모리 |  |
