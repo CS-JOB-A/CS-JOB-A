@@ -109,7 +109,7 @@
 |8| :white_large_square: | 2장 네트워크: HTTP |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |9| :white_large_square: | 3장 운영체제: 운영체제와 컴퓨터 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |10| :white_large_square: | 3장 운영체제: 메모리 |  :white_check_mark: 수민 :white_check_mark: 수현 |
-|11| :white_large_square: | 3장 운영체제: 프로세스와 스레드 |  :white_check_mark: 수민 |
+|11| :white_large_square: | 3장 운영체제: 프로세스와 스레드 |  :white_check_mark: 수민  :white_check_mark: 수현 |
 |12| :white_large_square: | 3장 운영체제: CPU 스케줄링 알고리즘 |  |
 |13| :white_large_square: | 4장 데이터베이스: 데이터 베이스 기본 |  |
 |14| :white_large_square: | 4장 데이터베이스: ERD와 정규화 과정 |  |
