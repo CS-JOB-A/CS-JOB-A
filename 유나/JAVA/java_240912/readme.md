@@ -113,3 +113,49 @@ public class InterrtuprExample {
 - 일시 정지를 만들지 않고도 interrupt() 메소드 호출 여부 할 수 있는 방법이 있음
   - interrupted()외 isInterrupted() 메소드는 interrupt() 메소드 호출 여부를 리턴
 
+```java
+package java_240912.ex03;
+
+public class PrintThread extends Thread{
+    public void run() {
+        while (true) {
+            System.out.println("실행 중");
+            // interrupt() 메소드가 호출되었다면 while 문을 빠져나감
+            if (Thread.interrupted()) {
+                break;
+            }
+        }
+        System.out.println("리소스 정리");
+        System.out.println("실행 종료");
+    }
+}
+
+```
+
+```java
+package java_240912.ex03;
+
+public class InterruptExample {
+    public static void main(String[] args) {
+        Thread thread = new PrintThread();
+        thread.start();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e)  {}
+
+        thread.interrupt();
+    }
+}
+
+```
+
+```java
+실행 중
+실행 중
+실행 중
+실행 중
+실행 중
+리소스 정리
+실행 종료
+```
