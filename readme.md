@@ -115,7 +115,7 @@
 |14| :white_large_square: | 4장 데이터베이스: ERD와 정규화 과정 |  :white_check_mark: 수민 white_check_mark: 수현 |
 |15| :white_large_square: | 4장 데이터베이스: 트랜잭션과 무결성 |  :white_check_mark: 수민  white_check_mark: 수현 |
 |16| :white_large_square: | 4장 데이터베이스: 데이터베이스의 종류 |  :white_check_mark: 수민  white_check_mark: 수현 |
-|17| :white_large_square: | 4장 데이터베이스: 인덱스 |  |
+|17| :white_large_square: | 4장 데이터베이스: 인덱스 |  :white_check_mark: 수민 |
 |18| :white_large_square: | 4장 데이터베이스: 조인의 종류 |  |
 |19| :white_large_square: | 4장 데이터베이스: 조인의 원리 |  |
 |20| :white_large_square: | 5장 자료구조: 복잡도 |  |
