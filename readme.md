@@ -112,9 +112,9 @@
 |11| :white_large_square: | 3장 운영체제: 프로세스와 스레드 |  :white_check_mark: 수민  :white_check_mark: 수현 |
 |12| :white_large_square: | 3장 운영체제: CPU 스케줄링 알고리즘 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |13| :white_large_square: | 4장 데이터베이스: 데이터 베이스 기본 |  :white_check_mark: 수민 :white_check_mark: 수현 |
-|14| :white_large_square: | 4장 데이터베이스: ERD와 정규화 과정 |  :white_check_mark: 수민 white_check_mark: 수현 |
-|15| :white_large_square: | 4장 데이터베이스: 트랜잭션과 무결성 |  :white_check_mark: 수민  white_check_mark: 수현 |
-|16| :white_large_square: | 4장 데이터베이스: 데이터베이스의 종류 |  :white_check_mark: 수민  white_check_mark: 수현 |
+|14| :white_large_square: | 4장 데이터베이스: ERD와 정규화 과정 |  :white_check_mark: 수민 :white_check_mark: 수현 |
+|15| :white_large_square: | 4장 데이터베이스: 트랜잭션과 무결성 |  :white_check_mark: 수민  :white_check_mark: 수현 |
+|16| :white_large_square: | 4장 데이터베이스: 데이터베이스의 종류 |  :white_check_mark: 수민  :white_check_mark: 수현 |
 |17| :white_large_square: | 4장 데이터베이스: 인덱스 |  :white_check_mark: 수민 |
 |18| :white_large_square: | 4장 데이터베이스: 조인의 종류 |  |
 |19| :white_large_square: | 4장 데이터베이스: 조인의 원리 |  |
