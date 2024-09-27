@@ -1,36 +1,20 @@
-# 14.9 스레드풀
-- 병렬 작업 처리가 많아지면 스레드의 개수 폭증 -> CPU가 바빠지고 메모리 사용량이 늘어남, 애플리케이션의 성능 급격히 저하
-- 병렬 작업 증가로 인한 스레드의 폭증 방지를 위해 스레드풀 사용!
-- 스레드풀 
-  - 작업 처리에 사용되는 스레드를 제한된 개수만큼 정해놓고 큐에 들어오는 작업들을 하나씩 맡아 처리하는 방식
-  - 작업 처리가 끝난 스레드는 다시 작업 큐에서 새로운 작업을 가져와 처리
-  - 이렇게 하면 작업량이 증가해도 스레드의 개수가 늘어나지 않아 애플리케이션의 성능이 급격히 저하되지 않음
+# 15. 컬렉션 자료구조
+# 15.1 컬렉션 프로엠 워크
+- 컬렉션 프레임워크
+  - 자료구조를 바탕으로 객체들을 효율적으로 추가, 삭제, 검색할 수 있도록 인터페이스와 클래스들을 java.util 패키지에 초함
+  - List, Set, Map이 주요 인터페이스
 
 ![img.png](img.png)
 
-## 스레드풀 생성
-- java.util.concurrent 패키지에서 `ExcecutorService` 인터페이스와 `Excutors` 클래스 제공
-
-![img_1.png](img_1.png)
-
-- 초기 수 : 스레드 풀이 생성 될 때 기본적으로 생성되는 스레드 수
-- 코어 수 : 스레드가 증가된 후 사용되지 않는 스레드를 제거할 때 최소한 풀에서 유지하는 스레드 수
-- 최대 수 : 증가되는 스레드의 한도 수
-- `newCacheThreadPool()` : 스레드풀의 초기 수와 코어 수는 0개, 작업 개수가 많아지면 새 스레드를 생성시켜 작업 처리, 60초 동안 스레드가 아무 작업 X-> 스레드 풀에서 제거
-- `newFoxedThreadPppl()` : 스레드풀의 초기 수는 0개이고, 작업개수가 많아지면 최대 5개까지 스레드를 생서시켜 작업 처리, 생성된 스레드를 제거하지 않음
-- 직접 ThreadPollExcutor로 스레드풀 생성 가능
-
-```java
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-ExecutorService threadPool = new ThreadPoolExecutor(
-        3, // 코어 스레드 개수
-        100, // 최대 스레드 개수
-        120L, // 놀고 있는 시간
-        TimeUnit.SECONDS, // 놀고 있는 시간 단위
-        new SynchronousQueue<Runnable>() // 작업 큐
-);
-```
+- List와 Set은 객체를 추가, 삭제, 검색하는 방법에 공통 메서드만 모아 Collection 인터페이스로 정의해두고 이것을 상속
+- Map은 키와 값을 하나의 쌍으로 묶어서 관리하는 구조
+- Collection
+  - List
+    - 순서를 유지하고 저장, 중복 저장 가능
+    - 구현클래스 : ArrayList, Vector, LinkedList
+  - Set
+    - 순서를 유지하지 않고 저장, 중복 저장 안됨
+    - 구현 클래스 : HashSet, TreeSet
+- Map
+  - 키와 값으로 구성된 엔트리 저장, 키는 중복 저장 안됨
+  - HashMap, HashTable, TreeMap, Properties
