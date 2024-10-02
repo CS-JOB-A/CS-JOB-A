@@ -119,6 +119,6 @@
 |18| :white_large_square: | 4장 데이터베이스: 조인의 종류 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |19| :white_large_square: | 4장 데이터베이스: 조인의 원리 |  :white_check_mark: 수민 :white_check_mark: 수현 |
 |20| :white_large_square: | 5장 자료구조: 복잡도 |  :white_check_mark: 수민 |
-|21| :white_large_square: | 5장 자료구조: 선형 자료 구조 |  |
+|21| :white_large_square: | 5장 자료구조: 선형 자료 구조 |  :white_check_mark: 수민 |
 |22| :white_large_square: | 5장 자료구조: 비선형 자료 구조 |  |
 
