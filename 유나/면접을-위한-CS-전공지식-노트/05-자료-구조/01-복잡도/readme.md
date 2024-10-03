@@ -17,7 +17,7 @@
 - 효율적인 코드로 개선하는 데 쓰이는 척도
 - O(1)을 지향해야 함
 
-![img.png](img.png)
+![img.png](imgs/img.png)
 
 # 5.1.2 공간 복집도
 - 프로그램을 실행시켰을 때 필요로 하는 자원의 공간의 양
@@ -27,5 +27,5 @@
 - 자료 구조 사용시 시간 복잡도를 잘 생각해야함
 - 평균, 최악의 시간 복잡도를 고려하며 사용
 
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img_1.png](imgs/img_1.png)
+![img_2.png](imgs/img_2.png)
